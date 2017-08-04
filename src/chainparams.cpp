@@ -172,13 +172,13 @@ public:
         assert(hashGenesisBlock == uint256("0x00000009914f15beefa2aa2e858802045c6d0b04d6a892b2d73083eda31eeeb1"));
         assert(genesis.hashMerkleRoot == uint256("0x4be51ad16bc0a7421b82a666d19c3bb7432e3f267671fc795ed2ae1e5529cc8e"));
 
-        vSeeds.push_back(CDNSSeedData("emercoin.com", "seed.emercoin.com"));
-        vSeeds.push_back(CDNSSeedData("emercoin.net", "seed.emercoin.net"));
+        vSeeds.push_back(CDNSSeedData("itecocoin.com", "seed.itecocoin.com"));
+        vSeeds.push_back(CDNSSeedData("itecocoin.net", "seed.itecocoin.net"));
         vSeeds.push_back(CDNSSeedData("emergate.net", "seed.emergate.net"));
         vSeeds.push_back(CDNSSeedData("emcdns", "seed.emc"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(33);   // emercoin: addresses begin with 'E'
-        base58Prefixes[SCRIPT_ADDRESS] = list_of(92);   // emercoin: addresses begin with 'e'
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(33);   // itecocoin: addresses begin with 'E'
+        base58Prefixes[SCRIPT_ADDRESS] = list_of(92);   // itecocoin: addresses begin with 'e'
         base58Prefixes[SECRET_KEY] =     list_of(128);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E);
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4);
@@ -214,7 +214,7 @@ public:
         pchMessageStart[1] = 0xf2;
         pchMessageStart[2] = 0xc0;
         pchMessageStart[3] = 0xef;
-        nDefaultPort = 6663;
+        nDefaultPort = 16663;
         bnProofOfWorkLimit = ~uint256(0) >> 24;
         bnInitialHashTarget = ~uint256(0) >> 29;
         nEnforceBlockUpgradeMajority = 51;
@@ -251,7 +251,7 @@ public:
         assert(hashGenesisBlock == uint256("0x0000004d67723af99256857a63368b60aa2b95193cd11ae4a39e33338fb933cb"));
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("emercoin", "tnseed.emercoin.com"));
+        vSeeds.push_back(CDNSSeedData("itecocoin", "tnseed.itecocoin.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(111);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(196);
@@ -298,7 +298,7 @@ public:
         //genesis.nNonce = 2;
         nMaxTipAge = 24 * 60 * 60;
         hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 6664;
+        nDefaultPort = 16664;
         assert(hashGenesisBlock == uint256("0x0000004d67723af99256857a63368b60aa2b95193cd11ae4a39e33338fb933cb"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
@@ -327,7 +327,7 @@ public:
     CUnitTestParams() {
         networkID = CBaseChainParams::UNITTEST;
         strNetworkID = "unittest";
-        nDefaultPort = 6665;
+        nDefaultPort = 16665;
         vFixedSeeds.clear(); //! Unit test mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Unit test mode doesn't have any DNS seeds.
 

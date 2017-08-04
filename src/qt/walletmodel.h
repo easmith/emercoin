@@ -60,7 +60,7 @@ public:
     static const int CURRENT_VERSION = 1;
     int nVersion;
 
-    // emercoin: used by exchange
+    // itecocoin: used by exchange
     std::string comment;
     std::string commentto;
 

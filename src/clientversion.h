@@ -43,7 +43,7 @@
 #define DO_STRINGIZE(X) #X
 
 //! Copyright string used in Windows .rc files
-#define COPYRIGHT_STR "2013-" STRINGIZE(COPYRIGHT_YEAR) " The Emercoin Core Developers"
+#define COPYRIGHT_STR "2013-" STRINGIZE(COPYRIGHT_YEAR) " The itecocoin Core Developers"
 
 /**
  * bitcoind-res.rc includes this file, but it cannot cope with real c++ code.
@@ -62,7 +62,7 @@ static const int CLIENT_VERSION =
                          +     100 * CLIENT_VERSION_REVISION
                          +       1 * CLIENT_VERSION_BUILD;
 
-// note: emercoin version is used for display purpose AND to accept alerts
+// note: itecocoin version is used for display purpose AND to accept alerts
 static const int EMERCOIN_VERSION =
                            1000000 * EMERCOIN_VERSION_MAJOR
                          +   10000 * EMERCOIN_VERSION_MINOR

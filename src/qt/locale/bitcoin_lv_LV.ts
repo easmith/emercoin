@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Izvēlies adresi uz kuru sūtīt emercoins</translation>
+        <translation>Izvēlies adresi uz kuru sūtīt itecocoins</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Izvēlies adresi ar kuru saņemt emercoins</translation>
+        <translation>Izvēlies adresi ar kuru saņemt itecocoins</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Saņemšanas adreses</translation>
     </message>
     <message>
-        <source>These are your Emercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Šīs ir jūsu Emercoin adreses maksājumu sūtīšanai. Vienmēr  pārbaudiet summu un saņēmēja adresi pirms monētu sūtīšanas.</translation>
+        <source>These are your itecocoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Šīs ir jūsu itecocoin adreses maksājumu sūtīšanai. Vienmēr  pārbaudiet summu un saņēmēja adresi pirms monētu sūtīšanas.</translation>
     </message>
     <message>
-        <source>These are your Emercoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Šīs ir jūsu Emercoin adreses maksājumu saņemšanai. Ir ieteicams katram darījumam izmantot jaunu saņemšanas adresi.</translation>
+        <source>These are your itecocoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Šīs ir jūsu itecocoin adreses maksājumu saņemšanai. Ir ieteicams katram darījumam izmantot jaunu saņemšanas adresi.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -180,8 +180,8 @@
         <translation>Maciņš nošifrēts</translation>
     </message>
     <message>
-        <source>Emercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your emercoins from being stolen by malware infecting your computer.</source>
-        <translation>Emercoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst emerkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
+        <source>itecocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your itecocoins from being stolen by malware infecting your computer.</source>
+        <translation>itecocoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst emerkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -287,8 +287,8 @@
         <translation>Atvērt &amp;URI...</translation>
     </message>
     <message>
-        <source>Emercoin Core client</source>
-        <translation>Emercoin Core klients</translation>
+        <source>itecocoin Core client</source>
+        <translation>itecocoin Core klients</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -299,12 +299,12 @@
         <translation>Bloku reindeksēšana no diska...</translation>
     </message>
     <message>
-        <source>Send coins to an Emercoin address</source>
-        <translation>Nosūtīt emerkoinus uz Emercoin adresi</translation>
+        <source>Send coins to an itecocoin address</source>
+        <translation>Nosūtīt emerkoinus uz itecocoin adresi</translation>
     </message>
     <message>
-        <source>Modify configuration options for Emercoin</source>
-        <translation>Mainīt Emercoin konfigurācijas uzstādījumus</translation>
+        <source>Modify configuration options for itecocoin</source>
+        <translation>Mainīt itecocoin konfigurācijas uzstādījumus</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -327,8 +327,8 @@
         <translation>&amp;Pārbaudīt ziņojumu...</translation>
     </message>
     <message>
-        <source>Emercoin</source>
-        <translation>Emercoin</translation>
+        <source>itecocoin</source>
+        <translation>itecocoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -343,8 +343,8 @@
         <translation>&amp;Saņemt</translation>
     </message>
     <message>
-        <source>Show information about Emercoin Core</source>
-        <translation>Parādīt informāciju par Emercoin Core</translation>
+        <source>Show information about itecocoin Core</source>
+        <translation>Parādīt informāciju par itecocoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -359,12 +359,12 @@
         <translation>Šifrēt privātās atslēgas kuras pieder tavam maciņam</translation>
     </message>
     <message>
-        <source>Sign messages with your Emercoin addresses to prove you own them</source>
-        <translation>Parakstīt ziņojumus ar savām Emercoin adresēm lai pierādītu ka tās pieder tev</translation>
+        <source>Sign messages with your itecocoin addresses to prove you own them</source>
+        <translation>Parakstīt ziņojumus ar savām itecocoin adresēm lai pierādītu ka tās pieder tev</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Emercoin addresses</source>
-        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Emercoin adresēm</translation>
+        <source>Verify messages to ensure they were signed with specified itecocoin addresses</source>
+        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām itecocoin adresēm</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -383,28 +383,28 @@
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Emercoin Core</translation>
+        <source>itecocoin Core</source>
+        <translation>itecocoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and emercoin: URIs)</source>
-        <translation>Pieprasīt maksājumus (izveido QR kodu un emercoin: URIs)</translation>
+        <source>Request payments (generates QR codes and itecocoin: URIs)</source>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un itecocoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Emercoin Core</source>
-        <translation>Par &amp;Emercoin Core</translation>
+        <source>&amp;About itecocoin Core</source>
+        <translation>Par &amp;itecocoin Core</translation>
     </message>
     <message>
-        <source>Open a emercoin: URI or payment request</source>
-        <translation>Atvērt emercoin URI vai maksājuma pieprasījumu</translation>
+        <source>Open a itecocoin: URI or payment request</source>
+        <translation>Atvērt itecocoin URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komandrindas iespējas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Emercoin network</source>
-        <translation><numerusform>%n aktīvu savienojumu ar Emercoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar Emercoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as Emercoin tīklu</numerusform></translation>
+        <source>%n active connection(s) to itecocoin network</source>
+        <translation><numerusform>%n aktīvu savienojumu ar itecocoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar itecocoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as itecocoin tīklu</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -704,8 +704,8 @@ Adrese: %4
         <translation>Nupat ierakstītā adrese "%1" jau atrodas adrešu grāmatā.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Emercoin address.</source>
-        <translation>Ierakstītā adrese "%1" nav derīga Emercoin adrese.</translation>
+        <source>The entered address "%1" is not a valid itecocoin address.</source>
+        <translation>Ierakstītā adrese "%1" nav derīga itecocoin adrese.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -738,8 +738,8 @@ Adrese: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Emercoin Core</translation>
+        <source>itecocoin Core</source>
+        <translation>itecocoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -750,8 +750,8 @@ Adrese: %4
         <translation>(%1-biti)</translation>
     </message>
     <message>
-        <source>About Emercoin Core</source>
-        <translation>Par Emercoin Core</translation>
+        <source>About itecocoin Core</source>
+        <translation>Par itecocoin Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -785,8 +785,8 @@ Adrese: %4
         <translation>Sveiciens</translation>
     </message>
     <message>
-        <source>Welcome to Emercoin Core.</source>
-        <translation>Sveicināts Emercoin Core</translation>
+        <source>Welcome to itecocoin Core.</source>
+        <translation>Sveicināts itecocoin Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -797,8 +797,8 @@ Adrese: %4
         <translation>Izmantot pielāgotu datu mapi:</translation>
     </message>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Emercoin Core</translation>
+        <source>itecocoin Core</source>
+        <translation>itecocoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -839,12 +839,12 @@ Adrese: %4
         <translation>&amp;Galvenais</translation>
     </message>
     <message>
-        <source>Automatically start Emercoin after logging in to the system.</source>
-        <translation>Automātiski sākt Emercoin pēc pieteikšanās sistēmā.</translation>
+        <source>Automatically start itecocoin after logging in to the system.</source>
+        <translation>Automātiski sākt itecocoin pēc pieteikšanās sistēmā.</translation>
     </message>
     <message>
-        <source>&amp;Start Emercoin on system login</source>
-        <translation>&amp;Sākt Emercoin reizē ar sistēmu</translation>
+        <source>&amp;Start itecocoin on system login</source>
+        <translation>&amp;Sākt itecocoin reizē ar sistēmu</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -892,15 +892,15 @@ Adrese: %4
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Ieslēgt emercoin &amp;kontroles funkcijas</translation>
+        <translation>Ieslēgt itecocoin &amp;kontroles funkcijas</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation>&amp;Tērēt neapstiprinātu atlikumu</translation>
     </message>
     <message>
-        <source>Automatically open the Emercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rūtera automātiski atvērt Emercoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the itecocoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Uz rūtera automātiski atvērt itecocoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -947,8 +947,8 @@ Adrese: %4
         <translation>Lietotāja interfeiss un &amp;valoda:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Emercoin.</source>
-        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc Emercoin pārstartēšanas.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting itecocoin.</source>
+        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc itecocoin pārstartēšanas.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -960,7 +960,7 @@ Adrese: %4
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Vai rādīt Emercoin kontroles funkcijas vai nē.</translation>
+        <translation>Vai rādīt itecocoin kontroles funkcijas vai nē.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -998,8 +998,8 @@ Adrese: %4
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Emercoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Emercoin tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the itecocoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar itecocoin tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1049,8 +1049,8 @@ Adrese: %4
         <translation>Maksājumu pieprasījuma kļūda</translation>
     </message>
     <message>
-        <source>Cannot start emercoin: click-to-pay handler</source>
-        <translation>Nevar palaist Emercoin: nospied-lai-maksātu apstrādātāju</translation>
+        <source>Cannot start itecocoin: click-to-pay handler</source>
+        <translation>Nevar palaist itecocoin: nospied-lai-maksātu apstrādātāju</translation>
     </message>
     <message>
         <source>Refund from %1</source>
@@ -1205,8 +1205,8 @@ Adrese: %4
         <translation>Notīrīt konsoli</translation>
     </message>
     <message>
-        <source>Welcome to the Emercoin RPC console.</source>
-        <translation>Laipni lūgti Emercoin RPC konsolē.</translation>
+        <source>Welcome to the itecocoin RPC console.</source>
+        <translation>Laipni lūgti itecocoin RPC konsolē.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1390,7 +1390,7 @@ Adrese: %4
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Emercoin Kontroles Funkcijas</translation>
+        <translation>itecocoin Kontroles Funkcijas</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -1529,8 +1529,8 @@ Adrese: %4
         <translation>Transakcijas izveidošana neizdevās!</translation>
     </message>
     <message>
-        <source>Warning: Invalid Emercoin address</source>
-        <translation>Brīdinājums: Nederīga Emercoin adrese</translation>
+        <source>Warning: Invalid itecocoin address</source>
+        <translation>Brīdinājums: Nederīga itecocoin adrese</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1611,8 +1611,8 @@ Adrese: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Emercoin Core is shutting down...</source>
-        <translation>Emercoin Core tiek izslēgta...</translation>
+        <source>itecocoin Core is shutting down...</source>
+        <translation>itecocoin Core tiek izslēgta...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1658,8 +1658,8 @@ Adrese: %4
         <translation>Kopēt parakstu uz sistēmas starpliktuvi</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Emercoin address</source>
-        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Emercoin adreses īpašnieks.</translation>
+        <source>Sign the message to prove you own this itecocoin address</source>
+        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs itecocoin adreses īpašnieks.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1741,12 +1741,12 @@ Adrese: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Emercoin Core</translation>
+        <source>itecocoin Core</source>
+        <translation>itecocoin Core</translation>
     </message>
     <message>
-        <source>The Emercoin Core developers</source>
-        <translation>Emercoin Core izstrādātāji</translation>
+        <source>The itecocoin Core developers</source>
+        <translation>itecocoin Core izstrādātāji</translation>
     </message>
     <message>
         <source>[testnet]</source>

@@ -108,8 +108,8 @@
         <translation>Новчаник је шифрован</translation>
     </message>
     <message>
-        <source>Emercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your emercoins from being stolen by malware infecting your computer.</source>
-        <translation>Emercoin će se sad zatvoriti da bi završio  proces enkripcije. Zapamti da enkripcija tvog novčanika ne može u potpunosti da zaštiti tvoje emercoine da ne budu ukradeni od malawarea koji bi inficirao tvoj kompjuter.</translation>
+        <source>itecocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your itecocoins from being stolen by malware infecting your computer.</source>
+        <translation>itecocoin će se sad zatvoriti da bi završio  proces enkripcije. Zapamti da enkripcija tvog novčanika ne može u potpunosti da zaštiti tvoje itecocoine da ne budu ukradeni od malawarea koji bi inficirao tvoj kompjuter.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -195,12 +195,12 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to an Emercoin address</source>
-        <translation>Пошаљите новац на emercoin адресу</translation>
+        <source>Send coins to an itecocoin address</source>
+        <translation>Пошаљите новац на itecocoin адресу</translation>
     </message>
     <message>
-        <source>Modify configuration options for Emercoin</source>
-        <translation>Изаберите могућности emercoin-а</translation>
+        <source>Modify configuration options for itecocoin</source>
+        <translation>Изаберите могућности itecocoin-а</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -334,8 +334,8 @@ Address: %4
         <translation>верзија</translation>
     </message>
     <message>
-        <source>About Emercoin Core</source>
-        <translation>O Emercoin Coru</translation>
+        <source>About itecocoin Core</source>
+        <translation>O itecocoin Coru</translation>
     </message>
     <message>
         <source>Usage:</source>

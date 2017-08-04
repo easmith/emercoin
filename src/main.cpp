@@ -37,7 +37,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-# error "Emercoin cannot be compiled without assertions."
+# error "itecocoin cannot be compiled without assertions."
 #endif
 
 /**
@@ -84,7 +84,7 @@ static void CheckBlockIndex();
 CScript COINBASE_FLAGS;
 
 const string strMessageMagic = "EmerCoin Signed Message:\n";
-CHooks* hooks = InitHook(); //this adds namecoin hooks which allow splicing of code inside standart emercoin functions.
+CHooks* hooks = InitHook(); //this adds namecoin hooks which allow splicing of code inside standart itecocoin functions.
 
 // Internal stuff
 namespace {
@@ -1277,12 +1277,12 @@ double GetDifficulty(unsigned int nBits)
 
 bool GuessPoS(const CBlockHeader& header)
 {
-    // emercoin: return false if time is below block 10 000 - we have no PoS blocks below 10 000 in our official blockchain.
+    // itecocoin: return false if time is below block 10 000 - we have no PoS blocks below 10 000 in our official blockchain.
     // this is important, because on early blocks difficulty was very low (starting from 1) and we can confuse PoS with PoW.
     if (header.nTime < 1387258928)
         return false;
 
-    // emercoin: in our official blockchain we currently have max PoS == 37.4635 (for blocks 1..129646)
+    // itecocoin: in our official blockchain we currently have max PoS == 37.4635 (for blocks 1..129646)
     // it is probably safe to assume that it won't go over 1000
     // it is also probably safe to assume, that PoW difficulty will never drop to 1000 or below (it would require less than 7.15 GH/S of mining power over entire network!)
     return GetDifficulty(header.nBits) <= 1000 ? true : false;
@@ -1738,11 +1738,11 @@ bool DisconnectBlock(CBlock& block, CValidationState& state, CBlockIndex* pindex
         }
     }
 
-    // emercoin: needed for FlushStateToDisk()
+    // itecocoin: needed for FlushStateToDisk()
     if (block.nVersion & BLOCK_VERSION_AUXPOW)
         mapDirtyAuxPow.insert(std::make_pair(block.GetHash(), block.auxpow));
 
-    // emercoin: undo name transactions in reverse order
+    // itecocoin: undo name transactions in reverse order
     if (fWriteNames)
         for (int i = block.vtx.size() - 1; i >= 0; i--)
             hooks->DisconnectInputs(block.vtx[i]);
@@ -1790,7 +1790,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("emercoin-scriptch");
+    RenameThread("itecocoin-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -2023,7 +2023,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     pindex->nMint = nValueOut - nValueIn + nFees;
     pindex->nMoneySupply = (pindex->pprev? pindex->pprev->nMoneySupply : 0) + nValueOut - nValueIn;
 
-    // emercoin: collect valid name tx
+    // itecocoin: collect valid name tx
     // NOTE: tx.UpdateCoins should not affect this loop, probably...
     vector<nameTempProxy> vName;
     if (fWriteNames)
@@ -2071,7 +2071,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     int64_t nTime4 = GetTimeMicros(); nTimeCallbacks += nTime4 - nTime3;
     LogPrint("bench", "    - Callbacks: %.2fms [%.2fs]\n", 0.001 * (nTime4 - nTime3), nTimeCallbacks * 0.000001);
 
-    // emercoin: add names to nameindex.dat
+    // itecocoin: add names to nameindex.dat
     if (fWriteNames)
         hooks->ConnectBlock(pindex, vName);
 
@@ -2930,7 +2930,7 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, bool fProofOfStake, C
         }
         else
         {
-            // this is needed only for emercoin official blockchain, because of mistake we made at the beginning
+            // this is needed only for itecocoin official blockchain, because of mistake we made at the beginning
             unsigned int check = GetNextTargetRequired(pindexPrev, fProofOfStake);
             unsigned int max_error = check / 100000;
             if (!(block.nBits >= check - max_error && block.nBits <= check + max_error)) // +- 0.001% interval
@@ -2974,7 +2974,7 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, bool fProofOfStake, C
         return state.Invalid(error("%s : rejected nVersion=3 block", __func__),
                              REJECT_OBSOLETE, "bad-version");
 
-    // emercoin: reject pre-merged mining blocks and check if auxpow is allowed
+    // itecocoin: reject pre-merged mining blocks and check if auxpow is allowed
     // note: both checks must execute in this order
     {
         // Reject block.nVersion=4 blocks when 95% (75% on testnet) of the network has upgraded:
@@ -3059,7 +3059,7 @@ bool AcceptBlockHeader(const CBlockHeader& block, bool fProofOfStake, CValidatio
     if (pindex == NULL)
         pindex = AddToBlockIndex(block);
 
-    // emercoin: set PoS flag for CBlockIndex. This should probably be done immediately after we added header to CBlockIndex (i.e., after or inside AddToBlockIndex),
+    // itecocoin: set PoS flag for CBlockIndex. This should probably be done immediately after we added header to CBlockIndex (i.e., after or inside AddToBlockIndex),
     // since I do not know when it will flush block index to disk
     if (fProofOfStake)
         pindex->SetProofOfStake();
@@ -3191,7 +3191,7 @@ void CBlockIndex::BuildSkip()
 bool ProcessNewBlock(CValidationState &state, CNode* pfrom, CBlock* pblock, CDiskBlockPos *dbp)
 {
     // Preliminary checks
-    //bool checked = CheckBlock(*pblock, state); // emercoin: removed, since this check happens later in AcceptBlock function
+    //bool checked = CheckBlock(*pblock, state); // itecocoin: removed, since this check happens later in AcceptBlock function
 
     {
         LOCK(cs_main);
@@ -4167,7 +4167,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
     }
 
 
-    // emercoin: set/unset network serialization mode for new clients
+    // itecocoin: set/unset network serialization mode for new clients
     if (pfrom->nVersion < 70002)
     {
         vRecv.nType         &= ~SER_POSMARKER;

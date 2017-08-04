@@ -67,7 +67,7 @@ public:
     uint32_t nNonce;
     boost::shared_ptr<CAuxPow> auxpow;
 
-    // emercoin: copy from CBlockIndex.nFlags from other clients. We need this information because we are using headers-first syncronization.
+    // itecocoin: copy from CBlockIndex.nFlags from other clients. We need this information because we are using headers-first syncronization.
     int32_t nFlags;
 
 

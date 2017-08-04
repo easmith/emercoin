@@ -320,7 +320,7 @@ EmcDns::~EmcDns() {
 void EmcDns::StatRun(void *p) {
   EmcDns *obj = (EmcDns*)p;
   obj->Run();
-//emercoin  ExitThread(0);
+//itecocoin  ExitThread(0);
 } // EmcDns::StatRun
 
 /*---------------------------------------------------*/

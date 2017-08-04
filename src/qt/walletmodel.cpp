@@ -675,7 +675,7 @@ bool WalletModel::saveReceiveRequest(const std::string &sAddress, const int64_t 
         return wallet->AddDestData(dest, key, sRequest);
 }
 
-// emercoin: get existing address from keypool without removing it from keypool
+// itecocoin: get existing address from keypool without removing it from keypool
 bool WalletModel::getAddressForChange(std::string &sAddress)
 {
     if (!wallet->IsLocked())

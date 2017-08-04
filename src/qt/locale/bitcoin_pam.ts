@@ -58,12 +58,12 @@
         <translation>Address king pamag-Tanggap</translation>
     </message>
     <message>
-        <source>These are your Emercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Reni reng kekang Emercoin address king pamagpadalang kabayaran. Lawan mulang masalese reng alaga ampo ing address na ning tumanggap bayu ka magpadalang barya.</translation>
+        <source>These are your itecocoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Reni reng kekang itecocoin address king pamagpadalang kabayaran. Lawan mulang masalese reng alaga ampo ing address na ning tumanggap bayu ka magpadalang barya.</translation>
     </message>
     <message>
-        <source>These are your Emercoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Reni reng kekang Emercoin addresses keng pamananggap bayad. Rerekomenda mi na gumamit kang bayung address keng balang transaksiyon.</translation>
+        <source>These are your itecocoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Reni reng kekang itecocoin addresses keng pamananggap bayad. Rerekomenda mi na gumamit kang bayung address keng balang transaksiyon.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -164,8 +164,8 @@
         <translation>Me-encrypt ne ing wallet</translation>
     </message>
     <message>
-        <source>Emercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your emercoins from being stolen by malware infecting your computer.</source>
-        <translation>Ing Emercoin ngeni magsara ya ban ayari ing proseso ning pamag-encrypt. Tandanan yu king pamag-encrypt wallet, ali nala aprotektan king kabuuan reng emercoins yu kareng malware a kasalunsungan atiu kareng computer yu.</translation>
+        <source>itecocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your itecocoins from being stolen by malware infecting your computer.</source>
+        <translation>Ing itecocoin ngeni magsara ya ban ayari ing proseso ning pamag-encrypt. Tandanan yu king pamag-encrypt wallet, ali nala aprotektan king kabuuan reng itecocoins yu kareng malware a kasalunsungan atiu kareng computer yu.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -255,12 +255,12 @@
         <translation>&amp;Alilan ing Passphrase...</translation>
     </message>
     <message>
-        <source>Send coins to an Emercoin address</source>
-        <translation>Magpadalang barya king Emercoin address</translation>
+        <source>Send coins to an itecocoin address</source>
+        <translation>Magpadalang barya king itecocoin address</translation>
     </message>
     <message>
-        <source>Modify configuration options for Emercoin</source>
-        <translation>Alilan ing pipamilian konpigurasion para keng Emercoin</translation>
+        <source>Modify configuration options for itecocoin</source>
+        <translation>Alilan ing pipamilian konpigurasion para keng itecocoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -283,8 +283,8 @@
         <translation>&amp;Beripikan ing message...</translation>
     </message>
     <message>
-        <source>Emercoin</source>
-        <translation>Emercoin</translation>
+        <source>itecocoin</source>
+        <translation>itecocoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -315,8 +315,8 @@
         <translation>Gamit para king Tabs</translation>
     </message>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Kapilubluban ning Emercoin</translation>
+        <source>itecocoin Core</source>
+        <translation>Kapilubluban ning itecocoin</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
@@ -448,8 +448,8 @@ Address: %4
         <translation>Ing pepalub yung address "%1" ati na yu king aklat dareng address</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Emercoin address.</source>
-        <translation>Ing pepalub yung address "%1" ali ya katanggap-tanggap a Emercoin address.</translation>
+        <source>The entered address "%1" is not a valid itecocoin address.</source>
+        <translation>Ing pepalub yung address "%1" ali ya katanggap-tanggap a itecocoin address.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -466,8 +466,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Kapilubluban ning Emercoin</translation>
+        <source>itecocoin Core</source>
+        <translation>Kapilubluban ning itecocoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -509,8 +509,8 @@ Address: %4
         <translation>Malaus ka</translation>
     </message>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Kapilubluban ning Emercoin</translation>
+        <source>itecocoin Core</source>
+        <translation>Kapilubluban ning itecocoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -531,20 +531,20 @@ Address: %4
         <translation>&amp;Pun</translation>
     </message>
     <message>
-        <source>Automatically start Emercoin after logging in to the system.</source>
-        <translation>Umpisan yang antimu ing Emercoin kaibat mekapag-log in king sistema.</translation>
+        <source>Automatically start itecocoin after logging in to the system.</source>
+        <translation>Umpisan yang antimu ing itecocoin kaibat mekapag-log in king sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Emercoin on system login</source>
-        <translation>&amp;Umpisan ya ing Emercoin king pamag-log-in na ning sistema.</translation>
+        <source>&amp;Start itecocoin on system login</source>
+        <translation>&amp;Umpisan ya ing itecocoin king pamag-log-in na ning sistema.</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Network</translation>
     </message>
     <message>
-        <source>Automatically open the Emercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ibuklat yang antimanu ing Emercoin client port king router. Gagana yamu ini istung ing router mu susuporta yang UPnP at magsilbi ya.</translation>
+        <source>Automatically open the itecocoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ibuklat yang antimanu ing itecocoin client port king router. Gagana yamu ini istung ing router mu susuporta yang UPnP at magsilbi ya.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -591,8 +591,8 @@ Address: %4
         <translation>Amanu na ning user interface:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Emercoin.</source>
-        <translation>Ing amanu na ning user interface maliari yang i-ayus o ilage keni. Ing ayus a ini magsilbi yamu istung pesibayuan meng pasibayu ing Emercoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting itecocoin.</source>
+        <translation>Ing amanu na ning user interface maliari yang i-ayus o ilage keni. Ing ayus a ini magsilbi yamu istung pesibayuan meng pasibayu ing itecocoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -626,8 +626,8 @@ Address: %4
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Emercoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng Emercoin network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the itecocoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng itecocoin network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -745,16 +745,16 @@ Address: %4
         <translation>Debug log file</translation>
     </message>
     <message>
-        <source>Open the Emercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ibuklat ing Emercoin debug log file menibat king kasalungsungan data directory. Magluat ya ining pilan segundu para kareng mamaragul a log files.</translation>
+        <source>Open the itecocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ibuklat ing itecocoin debug log file menibat king kasalungsungan data directory. Magluat ya ining pilan segundu para kareng mamaragul a log files.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>I-Clear ing console</translation>
     </message>
     <message>
-        <source>Welcome to the Emercoin RPC console.</source>
-        <translation>Malaus kayu king Emercoin RPC console.</translation>
+        <source>Welcome to the itecocoin RPC console.</source>
+        <translation>Malaus kayu king itecocoin RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -958,8 +958,8 @@ Address: %4
         <translation>Kopyan ing kasalungsungan pirma king system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Emercoin address</source>
-        <translation>Pirman ing mensayi ban patune na keka ya ining Emercoin address</translation>
+        <source>Sign the message to prove you own this itecocoin address</source>
+        <translation>Pirman ing mensayi ban patune na keka ya ining itecocoin address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -978,8 +978,8 @@ Address: %4
         <translation>&amp;Beripikan ing Mensayi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Emercoin address</source>
-        <translation>Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling Emercoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified itecocoin address</source>
+        <translation>Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling itecocoin address</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1045,8 +1045,8 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Kapilubluban ning Emercoin</translation>
+        <source>itecocoin Core</source>
+        <translation>Kapilubluban ning itecocoin</translation>
     </message>
     <message>
         <source>[testnet]</source>

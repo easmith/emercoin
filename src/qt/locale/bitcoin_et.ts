@@ -46,8 +46,8 @@
         <translation>V&amp;ali</translation>
     </message>
     <message>
-        <source>These are your Emercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Emercoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+        <source>These are your itecocoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu itecocoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -152,8 +152,8 @@
         <translation>Rahakott krüpteeritud</translation>
     </message>
     <message>
-        <source>Emercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your emercoins from being stolen by malware infecting your computer.</source>
-        <translation>Emercoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista emercoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
+        <source>itecocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your itecocoins from being stolen by malware infecting your computer.</source>
+        <translation>itecocoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista itecocoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -255,12 +255,12 @@
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
-        <source>Send coins to an Emercoin address</source>
-        <translation>Saada münte Emercoini aadressile</translation>
+        <source>Send coins to an itecocoin address</source>
+        <translation>Saada münte itecocoini aadressile</translation>
     </message>
     <message>
-        <source>Modify configuration options for Emercoin</source>
-        <translation>Muuda Emercoini seadeid</translation>
+        <source>Modify configuration options for itecocoin</source>
+        <translation>Muuda itecocoini seadeid</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -283,8 +283,8 @@
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
-        <source>Emercoin</source>
-        <translation>Emercoin</translation>
+        <source>itecocoin</source>
+        <translation>itecocoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -311,12 +311,12 @@
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
-        <source>Sign messages with your Emercoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Emercoini aadressiga</translation>
+        <source>Sign messages with your itecocoin addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma itecocoini aadressiga</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Emercoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Emercoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified itecocoin addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud itecocoini aadressiga</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -335,12 +335,12 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Emercoini tuumik</translation>
+        <source>itecocoin Core</source>
+        <translation>itecocoini tuumik</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Emercoin network</source>
-        <translation><numerusform>%n aktiivne ühendus Emercoini võrku</numerusform><numerusform>%n aktiivset ühendust Emercoini võrku</numerusform></translation>
+        <source>%n active connection(s) to itecocoin network</source>
+        <translation><numerusform>%n aktiivne ühendus itecocoini võrku</numerusform><numerusform>%n aktiivset ühendust itecocoini võrku</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -551,8 +551,8 @@ Aadress: %4⏎</translation>
         <translation>Selline aadress on juba olemas: "%1"</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Emercoin address.</source>
-        <translation>Sisestatud aadress "%1" ei ole Emercoinis kehtiv.</translation>
+        <source>The entered address "%1" is not a valid itecocoin address.</source>
+        <translation>Sisestatud aadress "%1" ei ole itecocoinis kehtiv.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -573,16 +573,16 @@ Aadress: %4⏎</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Emercoini tuumik</translation>
+        <source>itecocoin Core</source>
+        <translation>itecocoini tuumik</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versioon</translation>
     </message>
     <message>
-        <source>About Emercoin Core</source>
-        <translation>Kirjeldus Emercoini Tuumast</translation>
+        <source>About itecocoin Core</source>
+        <translation>Kirjeldus itecocoini Tuumast</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -620,8 +620,8 @@ Aadress: %4⏎</translation>
         <translation>Teretulemast</translation>
     </message>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Emercoini tuumik</translation>
+        <source>itecocoin Core</source>
+        <translation>itecocoini tuumik</translation>
     </message>
     <message>
         <source>Error</source>
@@ -646,12 +646,12 @@ Aadress: %4⏎</translation>
         <translation>Valikud</translation>
     </message>
     <message>
-        <source>Automatically start Emercoin after logging in to the system.</source>
-        <translation>Käivita Emercoin süsteemi logimisel.</translation>
+        <source>Automatically start itecocoin after logging in to the system.</source>
+        <translation>Käivita itecocoin süsteemi logimisel.</translation>
     </message>
     <message>
-        <source>&amp;Start Emercoin on system login</source>
-        <translation>&amp;Start Emercoin sisselogimisel</translation>
+        <source>&amp;Start itecocoin on system login</source>
+        <translation>&amp;Start itecocoin sisselogimisel</translation>
     </message>
     <message>
         <source>MB</source>
@@ -678,8 +678,8 @@ Aadress: %4⏎</translation>
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically open the Emercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Emercoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the itecocoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>itecocoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -726,8 +726,8 @@ Aadress: %4⏎</translation>
         <translation>Kasutajaliidese &amp;keel:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Emercoin.</source>
-        <translation>Kasutajaliidese keele valimise koht. Valik rakendub Emercoini käivitamisel.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting itecocoin.</source>
+        <translation>Kasutajaliidese keele valimise koht. Valik rakendub itecocoini käivitamisel.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -765,7 +765,7 @@ Aadress: %4⏎</translation>
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Emercoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the itecocoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Emerconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -792,8 +792,8 @@ Aadress: %4⏎</translation>
         <translation>URI käsitsemine</translation>
     </message>
     <message>
-        <source>Cannot start emercoin: click-to-pay handler</source>
-        <translation>Emercoin ei käivitu: vajuta-maksa toiming</translation>
+        <source>Cannot start itecocoin: click-to-pay handler</source>
+        <translation>itecocoin ei käivitu: vajuta-maksa toiming</translation>
     </message>
     </context>
 <context>
@@ -908,16 +908,16 @@ Aadress: %4⏎</translation>
         <translation>Debugimise logifail</translation>
     </message>
     <message>
-        <source>Open the Emercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ava Emercoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
+        <source>Open the itecocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ava itecocoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Puhasta konsool</translation>
     </message>
     <message>
-        <source>Welcome to the Emercoin RPC console.</source>
-        <translation>Teretulemast Emercoini RPC konsooli.</translation>
+        <source>Welcome to the itecocoin RPC console.</source>
+        <translation>Teretulemast itecocoini RPC konsooli.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1213,8 +1213,8 @@ Aadress: %4⏎</translation>
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Emercoin address</source>
-        <translation>Allkirjasta sõnum Emercoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this itecocoin address</source>
+        <translation>Allkirjasta sõnum itecocoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1237,8 +1237,8 @@ Aadress: %4⏎</translation>
         <translation>Kinnitamiseks sisesta allkirjastamise aadress, sõnum (kindlasti kopeeri täpselt ka reavahetused, tühikud, tabulaatorid jms) ning allolev signatuur.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Emercoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Emercoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified itecocoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud itecocoini aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1304,12 +1304,12 @@ Aadress: %4⏎</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Emercoini tuumik</translation>
+        <source>itecocoin Core</source>
+        <translation>itecocoini tuumik</translation>
     </message>
     <message>
-        <source>The Emercoin Core developers</source>
-        <translation>Emercoini Tuuma arendajad</translation>
+        <source>The itecocoin Core developers</source>
+        <translation>itecocoini Tuuma arendajad</translation>
     </message>
     <message>
         <source>[testnet]</source>

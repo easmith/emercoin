@@ -62,11 +62,11 @@
         <translation>Alamat-alamat menerima</translation>
     </message>
     <message>
-        <source>These are your Emercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim Emercoin.</translation>
+        <source>These are your itecocoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim itecocoin.</translation>
     </message>
     <message>
-        <source>These are your Emercoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your itecocoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Alamat-alamat Anda supaya menerima pembayaran. Dianjurkan agar Anda menggunakan alamat menerima yang baru untuk setiap transaksi.</translation>
     </message>
     <message>
@@ -172,8 +172,8 @@
         <translation>Dompet terenkripsi</translation>
     </message>
     <message>
-        <source>Emercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your emercoins from being stolen by malware infecting your computer.</source>
-        <translation>Emercoin akan menutup untuk menyelesaikan proses enkripsi. Ingat bahwa dengan mengenkripsi dompet Anda tidak sepenuhnya melindungi emercoin Anda dari perangkat lunak berbahaya yang menginfeksi komputer Anda.</translation>
+        <source>itecocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your itecocoins from being stolen by malware infecting your computer.</source>
+        <translation>itecocoin akan menutup untuk menyelesaikan proses enkripsi. Ingat bahwa dengan mengenkripsi dompet Anda tidak sepenuhnya melindungi itecocoin Anda dari perangkat lunak berbahaya yang menginfeksi komputer Anda.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -275,8 +275,8 @@
         <translation>Buka &amp;URI</translation>
     </message>
     <message>
-        <source>Emercoin Core client</source>
-        <translation>Client Emercoin Inti</translation>
+        <source>itecocoin Core client</source>
+        <translation>Client itecocoin Inti</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -287,12 +287,12 @@
         <translation>Mengindex ulang block di harddisk...</translation>
     </message>
     <message>
-        <source>Send coins to an Emercoin address</source>
-        <translation>Kirim koin ke alamat Emercoin</translation>
+        <source>Send coins to an itecocoin address</source>
+        <translation>Kirim koin ke alamat itecocoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Emercoin</source>
-        <translation>Ubah pilihan konfigurasi untuk Emercoin</translation>
+        <source>Modify configuration options for itecocoin</source>
+        <translation>Ubah pilihan konfigurasi untuk itecocoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -315,8 +315,8 @@
         <translation>&amp;Verifikasi pesan...</translation>
     </message>
     <message>
-        <source>Emercoin</source>
-        <translation>Emercoin</translation>
+        <source>itecocoin</source>
+        <translation>itecocoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -331,8 +331,8 @@
         <translation>&amp;Menerima</translation>
     </message>
     <message>
-        <source>Show information about Emercoin Core</source>
-        <translation>Tampilkan informasi tentang Emercoin Inti</translation>
+        <source>Show information about itecocoin Core</source>
+        <translation>Tampilkan informasi tentang itecocoin Inti</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -347,12 +347,12 @@
         <translation>Mengenkripsi kunci-kunci pribadi yang dipunyai dompetmu</translation>
     </message>
     <message>
-        <source>Sign messages with your Emercoin addresses to prove you own them</source>
-        <translation>Tandalah pesanan dengan alamat-alamat Emercoin Anda supaya membuktikan pesanan itu dikirim oleh Anda</translation>
+        <source>Sign messages with your itecocoin addresses to prove you own them</source>
+        <translation>Tandalah pesanan dengan alamat-alamat itecocoin Anda supaya membuktikan pesanan itu dikirim oleh Anda</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Emercoin addresses</source>
-        <translation>Periksakan pesan-pesan supaya menjaminkan ditandatangani oleh alamat Emercoin yang terperinci</translation>
+        <source>Verify messages to ensure they were signed with specified itecocoin addresses</source>
+        <translation>Periksakan pesan-pesan supaya menjaminkan ditandatangani oleh alamat itecocoin yang terperinci</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -371,16 +371,16 @@
         <translation>Baris tab</translation>
     </message>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Emercoin Core</translation>
+        <source>itecocoin Core</source>
+        <translation>itecocoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and emercoin: URIs)</source>
-        <translation>Permintaan pembayaran (membangkitkan kode QR dan emercoin: URIs)</translation>
+        <source>Request payments (generates QR codes and itecocoin: URIs)</source>
+        <translation>Permintaan pembayaran (membangkitkan kode QR dan itecocoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Emercoin Core</source>
-        <translation>&amp;Mengenai Emercoin Core</translation>
+        <source>&amp;About itecocoin Core</source>
+        <translation>&amp;Mengenai itecocoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -391,20 +391,20 @@
         <translation>Tampilkan daftar alamat dan label yang diterima</translation>
     </message>
     <message>
-        <source>Open a emercoin: URI or payment request</source>
-        <translation>Buka URI emercoin: atau permintaan pembayaran</translation>
+        <source>Open a itecocoin: URI or payment request</source>
+        <translation>Buka URI itecocoin: atau permintaan pembayaran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;pilihan Perintah-baris</translation>
     </message>
     <message>
-        <source>Show the Emercoin Core help message to get a list with possible Emercoin command-line options</source>
-        <translation>Tampilkan pesan bantuan Emercoin Core untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi Emercoin</translation>
+        <source>Show the itecocoin Core help message to get a list with possible itecocoin command-line options</source>
+        <translation>Tampilkan pesan bantuan itecocoin Core untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi itecocoin</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Emercoin network</source>
-        <translation><numerusform>%n hubungan aktif ke jaringan Emercoin</numerusform></translation>
+        <source>%n active connection(s) to itecocoin network</source>
+        <translation><numerusform>%n hubungan aktif ke jaringan itecocoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -740,8 +740,8 @@ Alamat: %4
         <translation>Alamat yang dimasukkan "%1" sudah ada di dalam buku alamat.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Emercoin address.</source>
-        <translation>Alamat yang dimasukkan "%1" bukan alamat Emercoin yang benar.</translation>
+        <source>The entered address "%1" is not a valid itecocoin address.</source>
+        <translation>Alamat yang dimasukkan "%1" bukan alamat itecocoin yang benar.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -778,16 +778,16 @@ Alamat: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Emercoin Core</translation>
+        <source>itecocoin Core</source>
+        <translation>itecocoin Core</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versi</translation>
     </message>
     <message>
-        <source>About Emercoin Core</source>
-        <translation>Mengenai Emercoin Core</translation>
+        <source>About itecocoin Core</source>
+        <translation>Mengenai itecocoin Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -821,8 +821,8 @@ Alamat: %4
         <translation>Selamat Datang</translation>
     </message>
     <message>
-        <source>Welcome to Emercoin Core.</source>
-        <translation>Selamat Datang ke Emercoin Core</translation>
+        <source>Welcome to itecocoin Core.</source>
+        <translation>Selamat Datang ke itecocoin Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -833,8 +833,8 @@ Alamat: %4
         <translation>Menggunakan direktori data yang dipilih Anda:</translation>
     </message>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Emercoin Core</translation>
+        <source>itecocoin Core</source>
+        <translation>itecocoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -879,12 +879,12 @@ Alamat: %4
         <translation>&amp;Utama</translation>
     </message>
     <message>
-        <source>Automatically start Emercoin after logging in to the system.</source>
-        <translation>Menyalakan Emercoin secara otomatis setelah masuk ke dalam sistem.</translation>
+        <source>Automatically start itecocoin after logging in to the system.</source>
+        <translation>Menyalakan itecocoin secara otomatis setelah masuk ke dalam sistem.</translation>
     </message>
     <message>
-        <source>&amp;Start Emercoin on system login</source>
-        <translation>&amp;Menyalakan Emercoin pada login sistem</translation>
+        <source>&amp;Start itecocoin on system login</source>
+        <translation>&amp;Menyalakan itecocoin pada login sistem</translation>
     </message>
     <message>
         <source>MB</source>
@@ -935,8 +935,8 @@ Alamat: %4
         <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
     </message>
     <message>
-        <source>Automatically open the Emercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Otomatis membuka port client Emercoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+        <source>Automatically open the itecocoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port client itecocoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -983,8 +983,8 @@ Alamat: %4
         <translation>&amp;Bahasa Antarmuka Pengguna:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Emercoin.</source>
-        <translation>Tampilan bahasa pengguna dapat diatur disini. Pengaturan ini akan berpengaruh setelah memulai kembali aplikasi Emercoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting itecocoin.</source>
+        <translation>Tampilan bahasa pengguna dapat diatur disini. Pengaturan ini akan berpengaruh setelah memulai kembali aplikasi itecocoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1042,8 +1042,8 @@ Alamat: %4
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Emercoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Emercoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the itecocoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan itecocoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1257,16 +1257,16 @@ Alamat: %4
         <translation>Berkas catatan debug</translation>
     </message>
     <message>
-        <source>Open the Emercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Buka berkas catatan debug Emercoin dari direktori data sekarang. Hal ini dapat memakan waktu beberapa detik untuk berkas catatan yang besar.</translation>
+        <source>Open the itecocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Buka berkas catatan debug itecocoin dari direktori data sekarang. Hal ini dapat memakan waktu beberapa detik untuk berkas catatan yang besar.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Bersihkan konsol</translation>
     </message>
     <message>
-        <source>Welcome to the Emercoin RPC console.</source>
-        <translation>Selamat datang ke konsol RPC Emercoin.</translation>
+        <source>Welcome to the itecocoin RPC console.</source>
+        <translation>Selamat datang ke konsol RPC itecocoin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1605,8 +1605,8 @@ Alamat: %4
         <translation>Gagal: Transaksi ditolak. Ini mungkin terjadi jika beberapa dari koin dalam dompet Anda telah digunakan, seperti ketika Anda menggunakan salinan wallet.dat dan beberapa koin telah dibelanjakan dalam salinan tersebut tetapi disini tidak tertandai sebagai terpakai.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Emercoin address</source>
-        <translation>Awas: Alamat Emercoin tidak sah</translation>
+        <source>Warning: Invalid itecocoin address</source>
+        <translation>Awas: Alamat itecocoin tidak sah</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1691,8 +1691,8 @@ Alamat: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Emercoin Core is shutting down...</source>
-        <translation>Emercoin Core sementara dimatikan...</translation>
+        <source>itecocoin Core is shutting down...</source>
+        <translation>itecocoin Core sementara dimatikan...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1738,8 +1738,8 @@ Alamat: %4
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Emercoin address</source>
-        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Emercoin ini</translation>
+        <source>Sign the message to prove you own this itecocoin address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat itecocoin ini</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1817,12 +1817,12 @@ Alamat: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Emercoin Core</source>
-        <translation>Emercoin Core</translation>
+        <source>itecocoin Core</source>
+        <translation>itecocoin Core</translation>
     </message>
     <message>
-        <source>The Emercoin Core developers</source>
-        <translation>Pembangun Emercoin Core</translation>
+        <source>The itecocoin Core developers</source>
+        <translation>Pembangun itecocoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2303,8 +2303,8 @@ Alamat: %4
         <translation>Jalankan perintah ketika perubahan transaksi dompet (%s di cmd digantikan oleh TxID)</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Emercoin Core is probably already running.</source>
-        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan Emercoin Core sudah mulai.</translation>
+        <source>Unable to bind to %s on this computer. itecocoin Core is probably already running.</source>
+        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan itecocoin Core sudah mulai.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2427,8 +2427,8 @@ Alamat: %4
         <translation>Impor blok dari eksternal berkas blk000???.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Emercoin Core is probably already running.</source>
-        <translation>Tidak bisa mengunci data directory %s. Kemungkinan Emercoin Core sudah mulai.</translation>
+        <source>Cannot obtain a lock on data directory %s. itecocoin Core is probably already running.</source>
+        <translation>Tidak bisa mengunci data directory %s. Kemungkinan itecocoin Core sudah mulai.</translation>
     </message>
     <message>
         <source>Information</source>
