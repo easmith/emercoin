@@ -172,10 +172,10 @@ public:
         assert(hashGenesisBlock == uint256("0x00000009914f15beefa2aa2e858802045c6d0b04d6a892b2d73083eda31eeeb1"));
         assert(genesis.hashMerkleRoot == uint256("0x4be51ad16bc0a7421b82a666d19c3bb7432e3f267671fc795ed2ae1e5529cc8e"));
 
-        vSeeds.push_back(CDNSSeedData("itecocoin.com", "seed.itecocoin.com"));
-        vSeeds.push_back(CDNSSeedData("itecocoin.net", "seed.itecocoin.net"));
-        vSeeds.push_back(CDNSSeedData("emergate.net", "seed.emergate.net"));
-        vSeeds.push_back(CDNSSeedData("emcdns", "seed.emc"));
+        vSeeds.push_back(CDNSSeedData("itecocoin.ic-i.ru", "itecocoin.ic-i.ru"));
+//        vSeeds.push_back(CDNSSeedData("itecocoin.net", "seed.itecocoin.net"));
+//        vSeeds.push_back(CDNSSeedData("emergate.net", "seed.emergate.net"));
+//        vSeeds.push_back(CDNSSeedData("emcdns", "seed.emc"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(33);   // itecocoin: addresses begin with 'E'
         base58Prefixes[SCRIPT_ADDRESS] = list_of(92);   // itecocoin: addresses begin with 'e'
