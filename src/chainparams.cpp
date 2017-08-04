@@ -105,7 +105,7 @@ public:
         pchMessageStart[3] = 0xe5;
         nDefaultPort = 16661;
         bnProofOfWorkLimit = ~uint256(0) >> 26;
-        bnInitialHashTarget = ~uint256(0) >> 32;
+        bnInitialHashTarget = ~uint256(0) >> 26;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;

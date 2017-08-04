@@ -377,7 +377,7 @@ bool CheckStakeKernelHash(unsigned int nBits, const CBlock& blockFrom, unsigned 
 
     ss << nTimeBlockFrom << nTxPrevOffset << txPrev.nTime << prevout.n << nTimeTx;
 
-    if (nTimeTx >= 1489782503) // block 219831
+    if (nTimeTx >= 1689782503) // block 219831
         ss << chainActive.Tip()->GetBlockHash();
 
     hashProofOfStake = Hash(ss.begin(), ss.end());
