@@ -13,6 +13,9 @@
 
 #include <boost/assign/list_of.hpp>
 
+#include <stdio.h>
+#include "bignum.h"
+
 using namespace std;
 using namespace boost::assign;
 
@@ -54,24 +57,19 @@ static void convertSeed6(std::vector<CAddress> &vSeedsOut, const SeedSpec6 *data
  */
 static Checkpoints::MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        ( 0,     uint256("0x00000000bcccd459d036a588d1008fce8da3754b205736f32ddfd35350e84c2d"))
-        ( 25000, uint256("0x20cc6639e9593e4e9344e1d40a234c552da81cb90b991aed6200ff0f72a69719"))
-        ( 50000, uint256("0x4c3d02a982bcb47ed9e076f754870606a6892d258720dc13863e10badbfd0e78"))
-        (100000, uint256("0x0000000000000071c614fefb88072459cced7b9d9a9cffd04064d3c3d539ecaf"))
-        (150000, uint256("0x5d317133f36b13ba3cd335c142e51d7e7007c0e72fd8a0fef48d0f4f63f7827a"))
-        (200000, uint256("0x7af70a03354a9ae3f9bf7f6a1dd3da6b03dcc14f8d6ad237095d73dbeaf5184c"))
+        ( 0,     uint256("0x00000009914f15beefa2aa2e858802045c6d0b04d6a892b2d73083eda31eeeb1"))
         ;
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
-        1455207714, // * UNIX timestamp of last checkpoint block
-        365081,     // * total number of transactions between genesis and last checkpoint
+        1501846740, // * UNIX timestamp of last checkpoint block
+        0,     // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
         500.0       // * estimated number of transactions per day after checkpoint
     };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
         boost::assign::map_list_of
-        ( 0, uint256("0x0000000810da236a5c9239aa1c49ab971de289dbd41d08c4120fc9c8920d2212"))
+        ( 0, uint256("0x0000004d67723af99256857a63368b60aa2b95193cd11ae4a39e33338fb933cb"))
         ;
 static const Checkpoints::CCheckpointData dataTestnet = {
         &mapCheckpointsTestnet,
@@ -82,7 +80,7 @@ static const Checkpoints::CCheckpointData dataTestnet = {
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
         boost::assign::map_list_of
-        ( 0, uint256("0x0000000810da236a5c9239aa1c49ab971de289dbd41d08c4120fc9c8920d2212"))
+        ( 0, uint256("0x0000004d67723af99256857a63368b60aa2b95193cd11ae4a39e33338fb933cb"))
         ;
 static const Checkpoints::CCheckpointData dataRegtest = {
         &mapCheckpointsRegtest,
@@ -105,8 +103,8 @@ public:
         pchMessageStart[1] = 0xe8;
         pchMessageStart[2] = 0xe9;
         pchMessageStart[3] = 0xe5;
-        nDefaultPort = 6661;
-        bnProofOfWorkLimit = ~uint256(0) >> 32;
+        nDefaultPort = 16661;
+        bnProofOfWorkLimit = ~uint256(0) >> 26;
         bnInitialHashTarget = ~uint256(0) >> 32;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
@@ -135,7 +133,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0x5F1DF16B2B704C8A578D0B)
          *   vMerkleTree: 4a5e1e
          */
-        const char* pszTimestamp = "2013: Emergence is inevitable! heideg.livejournal.com/313676.html";
+        const char* pszTimestamp = "2017-08-04 - start itecocoin";
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 486604799 << CScriptNum(9999) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -143,18 +141,36 @@ public:
         vout.resize(1);
         vout[0].nValue = 0;
         vout[0].scriptPubKey.clear();
-        CMutableTransaction txNew(1, 1386627289, vin, vout, 0);
+        CMutableTransaction txNew(1, 1501843528, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1386628033;
+        genesis.nTime    = 1501846740;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 139946546u;
+        genesis.nNonce   = 27919562u;
 
+        if(genesis.GetHash() != uint256("0x00000009914f15beefa2aa2e858802045c6d0b04d6a892b2d73083eda31eeeb1")) {      
+            genesis.nNonce = 0;    
+            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();      
+            while (genesis.GetHash() > hashTarget) {
+                ++genesis.nNonce;
+                if(genesis.nNonce % 1000000 == 0)       
+                {               
+                    printf("nonce %08u: hash = %s \n", genesis.nNonce, genesis.GetHash().ToString().c_str());
+                }          
+            }         
+            printf("new genesis.nTime = %u \n", genesis.nTime);
+            printf("new genesis.nBits = %u \n", genesis.nBits);  
+            printf("new genesis.nNonce = %u \n", genesis.nNonce);     
+            printf("new genesis.GetHash = 0x%s \n", genesis.GetHash().ToString().c_str());    
+            printf("new genesis.hashMerkleRoot = 0x%s \n", genesis.hashMerkleRoot.ToString().c_str());    
+        }
+        
+        
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000000bcccd459d036a588d1008fce8da3754b205736f32ddfd35350e84c2d"));
-        assert(genesis.hashMerkleRoot == uint256("0xd8eee032f95716d0cf14231dc7a238b96bbf827e349e75344c9a88e849262ee0"));
+        assert(hashGenesisBlock == uint256("0x00000009914f15beefa2aa2e858802045c6d0b04d6a892b2d73083eda31eeeb1"));
+        assert(genesis.hashMerkleRoot == uint256("0x4be51ad16bc0a7421b82a666d19c3bb7432e3f267671fc795ed2ae1e5529cc8e"));
 
         vSeeds.push_back(CDNSSeedData("emercoin.com", "seed.emercoin.com"));
         vSeeds.push_back(CDNSSeedData("emercoin.net", "seed.emercoin.net"));
@@ -199,7 +215,7 @@ public:
         pchMessageStart[2] = 0xc0;
         pchMessageStart[3] = 0xef;
         nDefaultPort = 6663;
-        bnProofOfWorkLimit = ~uint256(0) >> 28;
+        bnProofOfWorkLimit = ~uint256(0) >> 24;
         bnInitialHashTarget = ~uint256(0) >> 29;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
@@ -212,10 +228,27 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce = 18330017;
+        genesis.nNonce = 2524851;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000000810da236a5c9239aa1c49ab971de289dbd41d08c4120fc9c8920d2212"));
-
+        
+        if(genesis.GetHash() != uint256("0x0000004d67723af99256857a63368b60aa2b95193cd11ae4a39e33338fb933cb")) {      
+            genesis.nNonce = 0;    
+            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();      
+            while (genesis.GetHash() > hashTarget) {
+                ++genesis.nNonce;
+                if(genesis.nNonce % 1000000 == 0)       
+                {               
+                    printf("nonce %08u: hash = %s \n", genesis.nNonce, genesis.GetHash().ToString().c_str());
+                }          
+            }         
+            printf("new genesis.nTime = %u \n", genesis.nTime);
+            printf("new genesis.nBits = %u \n", genesis.nBits);  
+            printf("new genesis.nNonce = %u \n", genesis.nNonce);     
+            printf("new genesis.GetHash = 0x%s \n", genesis.GetHash().ToString().c_str());    
+            printf("new genesis.hashMerkleRoot = 0x%s \n", genesis.hashMerkleRoot.ToString().c_str());    
+        }
+        
+        assert(hashGenesisBlock == uint256("0x0000004d67723af99256857a63368b60aa2b95193cd11ae4a39e33338fb933cb"));
         vFixedSeeds.clear();
         vSeeds.clear();
         vSeeds.push_back(CDNSSeedData("emercoin", "tnseed.emercoin.com"));
@@ -266,7 +299,7 @@ public:
         nMaxTipAge = 24 * 60 * 60;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 6664;
-        assert(hashGenesisBlock == uint256("0x0000000810da236a5c9239aa1c49ab971de289dbd41d08c4120fc9c8920d2212"));
+        assert(hashGenesisBlock == uint256("0x0000004d67723af99256857a63368b60aa2b95193cd11ae4a39e33338fb933cb"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
